@@ -1,0 +1,30 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "clean": "rescript clean -with-deps",
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "bs-platform": "^9.0.2",
+    "gentype": "^4.1.0",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
